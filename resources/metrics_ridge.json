@@ -1,0 +1,21 @@
+{
+  "backend": "lightgbm",
+  "use_cuda": true,
+  "num_boost_round": 300,
+  "learning_rate": 0.05,
+  "num_leaves": 63,
+  "max_depth": -1,
+  "feature_fraction": 0.8,
+  "bagging_fraction": 0.8,
+  "bagging_freq": 1,
+  "min_child_samples": 20,
+  "lambda_l1": 0.0,
+  "lambda_l2": 0.0,
+  "validation_size": 0.1,
+  "gap": 4,
+  "train_rows": 1479806,
+  "validation_rows": 149629,
+  "validation_score": 0.021759442142019216,
+  "validation_rmse": 0.31265354005902146,
+  "model_path": "resources\\model_lightgbm.joblib"
+}
